@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title> exercicío de doação de sangue</title>
+</head>
+
+<body>
+    <div class="doador">
+        <label for="tipoSanguineoDoador">Doador:</label>
+        <select id="tipoSanguíneoDoador">
+
+            <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+            <option value="O">O</option>
+        </select>
+    </div>
+    <div class="Receptor">
+        <label for="tipoSanguineoReceptor">receptor:</label>
+        <select id="tipoSanguineoReceptor">
+
+            <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+            <option value="O">O</option>
+        </select>
+    </div>
+
+    <button class="classGenerica"id="btnCalculaTipoSanguineo"type="button"
+        onclick="leiaInputTipoSanguineo()">verificar
+    </button>
+    
+    <span id="resultado"></span>
+    <script src="./Repeticao.js></script>
+</body>
+
+</html>
